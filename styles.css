@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.game-ui{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    position: fixed;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+
+.results{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.selection{
+    font-family: inherit;
+    font-size: 45px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.results{
+    font-size: 20px;
+    padding-top: 150px;
+
+}
+  
